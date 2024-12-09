@@ -15,8 +15,6 @@ from collections import Counter
 #
 
 def checkMagazine(magazine, note):
-    magz = {}
-    Notes = {}
     magz = Counter(magazine)
     Notes = Counter(note)
     result = Notes - magz
